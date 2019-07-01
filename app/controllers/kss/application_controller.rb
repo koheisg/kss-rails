@@ -1,5 +1,5 @@
 module Kss
-  class ApplicationController < ::ApplicationController
+  class ApplicationController < ActionController::Base
     layout 'kss/application'
     
     private
